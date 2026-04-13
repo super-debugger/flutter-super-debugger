@@ -48,6 +48,9 @@ ios/DerivedData/
 .vscode/
 *.code-workspace
 
+# Local docs
+docs/local/
+
 # macOS
 .DS_Store
 
