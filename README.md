@@ -1,8 +1,8 @@
 # Super Debugger
 
-Super Debugger is an in-app developer tool for Flutter mobile apps. It is designed to help internal teams inspect app behavior directly on the device, without depending on a desktop companion app, browser dashboard, or hosted service.
+Super Debugger is an open-source in-app debugging and inspection library for Flutter mobile apps. It is designed to help Flutter teams inspect app behavior directly on the device, without depending on a desktop companion app, browser dashboard, or hosted service.
 
-The product direction is inspired by the most useful parts of tools like Chucker, Hyperion, and Flipper, but shaped for a Flutter-first in-app experience that small teams can adopt quickly and non-developer stakeholders can still understand.
+The product direction is inspired by the most useful parts of tools like Chucker, Hyperion, and Flipper, but shaped for a Flutter-first in-app experience that app teams can adopt quickly and that remains understandable for non-developer collaborators when needed.
 
 ## Product Direction
 
@@ -29,7 +29,7 @@ Included in the MVP:
 - search and filtering for logs and network entries
 - clear labeling for mocked traffic
 - support for different request and response body representations
-- internal-build access control and sensitive-data protection hooks
+- development/staging access control and sensitive-data protection hooks
 
 Visible but not implemented in the MVP:
 
@@ -66,6 +66,8 @@ Current technical direction:
 - pure Flutter where possible, native bridge only when necessary
 - minimal third-party dependencies
 - clean architecture with a pragmatic layer-first structure
+
+The current product intent is to make it easier for Flutter apps to expose a lightweight in-app inspector experience during development, QA, staging, and other controlled environments.
 
 ## For Contributors
 
